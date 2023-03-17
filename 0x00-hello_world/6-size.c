@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - print sizes of c data types
- *@void - no parameter
+ * @param - no parameter
  * Return: Always 0
  */
 
