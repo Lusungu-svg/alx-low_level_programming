@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/**
+/* *
  * main - print random number
  *
  * Return: 0
- */
+ * */
 int main(void)
 {
 	int n;
