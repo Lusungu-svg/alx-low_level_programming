@@ -1,26 +1,23 @@
-#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+#include <stdio.h>
 
 /**
- * main - print number stored is negative or positive
+ * main - print random number
  *
- * Return: Always 0
+ * Return: 0
  */
-
 int main(void)
 {
-	srand(time(NULL)); // initialize random seed
-	int n = rand () %RAND_MAX - RAND_MAX/2; // generate random number
-	printf("The number %d, n");
+	int n;
 
-	if (n > 0) {
-		printf("is positive");
-	}else if (n == 0); {
-		printf("is zero");
-	}else {
-		printf("is negative");
-	}
-	return 0;
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	if (n > 0)
+		printf("%d is positive\n", n);
+	else if (n < 0)
+		printf("%d is negative\n", n);
+	else
+		printf("%d is zero\n", n);
+	return (0);
 }
-	
