@@ -145,7 +145,7 @@ stacking_sub.to_csv('StackingSubmission.csv', index=False)
 
 rf_sub.head()
 
-!pip install pywedge
+#!pip install pywedge
 
 import pywedge as pw
 import pandas as pd
