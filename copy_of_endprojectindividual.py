@@ -86,7 +86,7 @@ print(f"Random Forest RMSE: {rf_rmse}, Recall: {rf_recall}")
 print(f"XGBoost RMSE: {xgb_rmse}, Recall: {xgb_recall}")
 print(f"Stacking RMSE: {stacking_rmse}, Recall: {stacking_recall}")
 
-!pip install sklearn.tree
+#!pip install sklearn.tree
 
 from sklearn.tree import plot_tree
 
